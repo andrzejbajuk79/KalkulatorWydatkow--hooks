@@ -64,7 +64,7 @@ label {
  background-color: var(--primaryColor);
  text-align: center;
  letter-spacing: 0.5px;
- font-size: 14px;
+ font-size: 17px;
  outline: 0;
  border: none;
  border-radius: 2px;
@@ -85,7 +85,7 @@ label {
 }
 .btn-icon {
  margin-left: 0.75rem;
- font-size: 1.2rem;
+ font-size: 1.6rem;
 }
 .list {
  margin: 2rem 0.75rem 0 0.75rem;

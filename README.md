@@ -4,7 +4,7 @@
 
 # ZRODLO
 
-**torrenty** : _Movie App - Hooks API and Styled Components_
+**torrenty** : _Udemy - React Tutorial and Projects Course (React Hooks Budget Calculator)_
 
 > https://github.com/weibenfalk/React-RMDB/tree/master/src/components
 
@@ -13,5 +13,4 @@
 - Clone this repo `git clone` and check into the folder
 
 ####Preview
-![sass-js-coding-test screenshot](https://github.com/andrzejbajuk79/MovieApp-Hooks/blob/master/src/2020-05-18_09h04_01.png?raw=true)
-![sass-js-coding-test screenshot](https://github.com/andrzejbajuk79/MovieApp-Hooks/blob/master/src/2020-05-18_08h59_29.png?raw=true)
+![sass-js-coding-test screenshot](F:\projekty\react\budget-calculator\src\img\2020-07-28_10h37_09.png)

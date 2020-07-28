@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {v4 as id} from 'uuid';
 import './App.css';
 import ExpenseList from './components/ExpenseList';
@@ -6,19 +6,33 @@ import ExpenseForm from './components/ExpenseForm';
 import Alert from './components/Alert';
 
 const initialExpenses = [
- {id: id(), charge: 'Wynajem', kwota: 1600},
- {id: id(), charge: 'Zakupy', kwota: 600},
- {id: id(), charge: 'Rachunki', kwota: 477},
+ {id: id(), charge: 'Wynajem', amount: 1600},
+ {id: id(), charge: 'Zakupy', amount: 600},
+ {id: id(), charge: 'Rachunki', amount: 477},
 ];
-console.log(initialExpenses);
-function App() {
+
+const App = () => {
+ const [expenses, setExpenses] = useState(initialExpenses);
+
  return (
   <>
    <Alert />
-   <ExpenseForm />
-   <ExpenseList expenses={initialExpenses} />
+   <h1>Kalkulator wydatków</h1>
+   <main className='App'>
+    <ExpenseForm />
+    <ExpenseList expenses={expenses} />
+   </main>
+   <h1>
+    Suma :{' '}
+    <span className='total'>
+     {expenses.reduce((acc, curr) => {
+      return acc + curr.amount;
+     }, 0)}{' '}
+     PLN
+    </span>
+   </h1>
   </>
  );
-}
+};
 
 export default App;
