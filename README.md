@@ -13,4 +13,4 @@
 - Clone this repo `git clone` and check into the folder
 
 ####Preview
-![sass-js-coding-test screenshot](F:\projekty\react\budget-calculator\src\img\2020-07-28_10h37_09.png)
+![sass-js-coding-test screenshot](src\img\2020-07-28_10h37_09.png)
